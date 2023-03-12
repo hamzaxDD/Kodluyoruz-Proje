@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- mobile meta -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Diziblock | AnaSayfa</title>
+   <!-- bootstrap css -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <!-- icon-->
+   <link rel="icon" href="images/logo.png" type="image/gif" />
+   <!-- font awesome -->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+</head>
+
+<body>
+   <!-- navbar,hambruger menu başlangıç -->
+   <div id="home" class="">
+      <nav>
+         <div class="navs">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+            <span>Block</span>
+         </div>
+         <div>
+            <ul id="nav">
+               <li><a href="index.html#diziler">Diziler</a></li>
+               <li><a href="index.html#fragmanlar">Fragmanlar</a></li>
+               <li><a href="hakkimizda.html">Hakkımızda</a></li>
+               <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+         </div>
+         <div class="menu" id="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+      </nav>
+      <!-- hamburger menu javascript  başlangıç -->
+      <script>
+         const navigation = document.getElementById("nav");
+         const menu = document.getElementById("menu");
+
+         menu.addEventListener("click", () => {
+            navigation.style.setProperty("--childenNumber", navigation.children.length);
+            navigation.classList.toggle("active");
+            menu.classList.toggle("active");
+         });
+      </script>
+      <!-- hamburger menu javascript  bitiş -->
+   </div>
+   <!-- navbar,hambruger menu bitiş -->
+   <!-- main başlangıç -->
+   <div class="banner_section">
+      <div id="my_slider" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active item-1">
+               <div class="dizi-item">
+                  <div class="dizi-container">
+                     <div class="yil">
+                        <span class="span-dizi">Yıl</span>
+                        <h2 class="white">2010</h2>
+                     </div>
+                     <div class="tur">
+                        <span class="span-dizi">Tür</span><br>
+                        <h2 class="white inline-block" style="font-size: 1.6rem;">Polisiye, Macera, Dram</h2>
+                        <h2 class="white inline-block" style="padding-left: 3rem;font-size: 1.6rem;">8.9</h2>
+                        <span class="span-dizi">IMBD</span>
+                     </div>
+                     <div class="baslik">
+                        <h1 class="white" style="font-size: 7rem;">Behzat Ç.</h1>
+                     </div>
+                     <div class="dizi-aciklama">
+                        <p class="white">
+                           Behzat Ç. Bir Ankara Polisiyesi, 2010-2013 yılları arasında Star TV'de, 2019 yılında<br> ise
+                           Blu
+                           TV'de yayımlanan, Emrah Serbes'in Her Temas İz Bırakır romanından <br>esinlenerek hazırlanmış
+                           Türk
+                           yapımı polisiye, macera, dram, komedi, aksiyon ve <br>gerilim türündeki televizyon ve
+                           internet
+                           dizisidir.
+                        </p>
+                     </div>
+                     <div class="fragman">
+                        <div class="fragman-icon">
+                           <a style="color: white;"
+                              href="https://www.youtube.com/watch?v=PL0HM8ylznI&amp;ab_channel=blutv">
+                              <svg style="padding-left:5px;padding-top: 5px;width: 35px; height: 35px;"
+                                 xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="inline-block icon-fragman">
+                                 <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                              </svg></a>
+                        </div>
+                        <div class="fragman-text">
+                           <span style="padding-left: 15px;"><a style="color: white;"
+                                 href="https://www.youtube.com/watch?v=PL0HM8ylznI&amp;ab_channel=blutv">Fragman</a></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item item-2">
+               <div class="dizi-item">
+                  <div class="dizi-container">
+                     <div class="yil">
+                        <span class="span-dizi">Yıl</span>
+                        <h2 class="white">2021</h2>
+                     </div>
+                     <div class="tur">
+                        <span class="span-dizi">Tür</span><br>
+                        <h2 class="white inline-block" style="font-size: 1.6rem;">Aksiyon, Dram, Gizem</h2>
+                        <h2 class="white inline-block" style="padding-left: 3rem;font-size: 1.6rem;">8.0</h2>
+                        <span class="span-dizi">IMBD</span>
+                     </div>
+                     <div class="baslik">
+                        <h1 class="white" style="font-size: 7rem;">Squid Game</h1>
+                     </div>
+                     <div class="dizi-aciklama">
+                        <p class="white">
+                           Para sıkıntısı çeken yüzlerce oyuncu, çocuk oyunlarında yarışmaları için aldıkları <br>tuhaf
+                           daveti kabul eder. İçeride onları cazip bir ödül ve ölüm <br>riski beklemektedir.
+                        </p>
+                     </div>
+                     <div class="fragman">
+                        <div class="fragman-icon">
+                           <a style="color: white;" href="https://www.youtube.com/watch?v=YJoB8zwPpSk">
+                              <svg style="padding-left:5px;padding-top: 5px;width: 35px; height: 35px;"
+                                 xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="inline-block icon-fragman">
+                                 <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                              </svg></a>
+                        </div>
+                        <div class="fragman-text">
+                           <span style="padding-left: 15px;"><a style="color: white;"
+                                 href="https://www.youtube.com/watch?v=YJoB8zwPpSk">Fragman</a></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item item-3">
+               <div class="dizi-item">
+                  <div class="dizi-container">
+                     <div class="yil">
+                        <span class="span-dizi">Yıl</span>
+                        <h2 class="white">2003</h2>
+                     </div>
+                     <div class="tur">
+                        <span class="span-dizi">Tür</span><br>
+                        <h2 class="white inline-block" style="font-size: 1.6rem;">Aksiyon, Dram, Politik, İstihbarat
+                        </h2>
+                        <h2 class="white inline-block" style="padding-left: 3rem;font-size: 1.6rem;">8.7</h2>
+                        <span class="span-dizi">IMBD</span>
+                     </div>
+                     <div class="baslik">
+                        <h1 class="white" style="font-size: 7rem;">Kurtlar Vadisi</h1>
+                     </div>
+                     <div class="dizi-aciklama">
+                        <p class="white">
+                           Kurtlar Vadisi, 15 Ocak 2003 tarihinde Show TV'de "Bu bir mafya dizisidir<br> sloganıyla
+                           yayımlanmaya başlayan aksiyon, dram, istihbarat ve politik türündeki Türk televizyon<br>
+                           dizisidir. Dizi, 4 sezondan ve 97 bölümden oluşmaktadır. <br>1. sezonunda (ilk 20 bölüm)
+                           çarşamba
+                           günleri sonrasındaysa perşembe günleri yayımlanmıştır.<br> Dizi ilk üç sezon Show TV'de
+                           yayımlanmıştır. Son sezonundaysa 4 milyon dolar karşılığında<br> Kanal D'ye transfer
+                           olmuştur. Bu
+                           yönüyle Türk televizyonunda bir ilktir. 29 Aralık 2005 tarihinde yayınlanan<br> 97. bölümüyle
+                           final yaparak sona ermiştir.
+                        </p>
+                     </div>
+                     <div class="fragman">
+                        <div class="fragman-icon">
+                           <a style="color: white;"
+                              href="https://www.youtube.com/watch?v=DkAHxvoA2Q8&ab_channel=KurtlarVadisi">
+                              <svg style="padding-left:5px;padding-top: 5px;width: 35px; height: 35px;"
+                                 xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="inline-block icon-fragman">
+                                 <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                              </svg></a>
+                        </div>
+                        <div class="fragman-text">
+                           <span style="padding-left: 15px;"><a style="color: white;"
+                                 href="https://www.youtube.com/watch?v=DkAHxvoA2Q8&ab_channel=KurtlarVadisi">Fragman</a></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item item-4">
+               <div class="dizi-item">
+                  <div class="dizi-container">
+                     <div class="yil">
+                        <span class="span-dizi">Yıl</span>
+                        <h2 class="white">2011</h2>
+                     </div>
+                     <div class="tur">
+                        <span class="span-dizi">Tür</span><br>
+                        <h2 class="white inline-block" style="font-size: 1.6rem;">Aksiyon, Drama, Gerilim, Macera</h2>
+                        <h2 class="white inline-block" style="padding-left: 3rem;font-size: 1.6rem;">9.2</h2>
+                        <span class="span-dizi">IMBD</span>
+                     </div>
+                     <div class="baslik">
+                        <h1 class="white" style="font-size: 7rem;">Game Of Thrones</h1>
+                     </div>
+                     <div class="dizi-aciklama">
+                        <p class="white">
+                           Game of Thrones, David Benioff ve D. B. Weiss tarafından yaratılan ve HBO'da <br>yayımlanan
+                           Amerikan fantastik televizyon dizisidir. George R. R. <br>Martin'in epik fantezi serisi Buz
+                           ve
+                           Ateşin Şarkısı'ndan uyarlanmış<br> olan dizi, adını serinin ilk kitabından almaktadır.
+                        </p>
+                     </div>
+                     <div class="fragman">
+                        <div class="fragman-icon">
+                           <a style="color: white;" href="https://www.youtube.com/watch?v=gcTkNV5Vg1E">
+                              <svg style="padding-left:5px;padding-top: 5px;width: 35px; height: 35px;"
+                                 xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                 stroke-linejoin="round" class="inline-block icon-fragman">
+                                 <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                              </svg></a>
+                        </div>
+                        <div class="fragman-text">
+                           <span style="padding-left: 15px;"><a style="color: white;"
+                                 href="https://www.youtube.com/watch?v=gcTkNV5Vg1E">Fragman</a></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+         </a>
+         <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+         </a>
+      </div>
+   </div>
+   <!-- main bitiş -->
+   <!-- diziler başlangıç -->
+   </div>
+   </div>
+   <div class="content-main" id="diziler">
+      <div class="container">
+         <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <h1 class="popular-text">Popüler Diziler</h1>
+                  <div class="content-section_2 content-main-py">
+                     <div class="content-main-section">
+                        <div class="image-section"><img src="images/popular-1.png" style="border-radius:5px;"></div>
+                        <h2 class="content-isim">Squid Game(2021)</h2>
+                        <p class="content-aciklama">Squid Game, Netflix tarafından 17 Eylül 2021 tarihinde dünya çapında
+                           yayınlanan Güney Koreli bir drama dizisidir. Hwang Dong-hyuk tarafından yazılıp yönetilen
+                           filmin başrollerinde Lee Jung-jae, Park Hae-soo, O Yeong-su, Wi Ha-joon, Jung Ho-yeon, Heo
+                           Sung-tae, Anupam Tripathi ve Kim Joo- ryoung oynamıştır.</p>
+                        <div class="section-btn"><a href="https://en.wikipedia.org/wiki/Squid_Game" target="_blank">Daha Fazla...</a></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <h1 class="popular-text">Popüler Diziler</h1>
+                  <div class="content-section_2 content-main-py">
+                     <div class="content-main-section">
+                        <div class="image-section"><img src="images/popular-3.jpg" style="border-radius:5px"></div>
+                        <h2 class="content-isim">Behzat Ç.(2010)</h2>
+                        <p class="content-aciklama">Behzat Ç. Bir Ankara Polisiyesi, 2010-2013 yılları arasında Star
+                           TV'de, 2019 yılında ise Blu TV'de yayımlanan, Emrah Serbes'in Her Temas İz Bırakır romanından
+                           esinlenerek hazırlanmış Türk yapımı polisiye, macera, dram, komedi, aksiyon ve gerilim
+                           türündeki televizyon ve internet dizisidir</p>
+                        <div class="section-btn"><a href="https://tr.wikipedia.org/wiki/Behzat_%C3%87._Bir_Ankara_Polisiyesi" target="_blank">Daha Fazla...</a></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <h1 class="popular-text">Popüler Diziler</h1>
+                  <div class="content-section_2 content-main-py">
+                     <div class="content-main-section">
+                        <div class="image-section"><img src="images/popular-2.jpg" style="border-radius:5px"></div>
+                        <h2 class="content-isim">Game Of Thrones</h2>
+                        <p class="content-aciklama">Game of Thrones, David Benioff ve D. B. Weiss tarafından yaratılan
+                           ve HBO'da yayımlanan Amerikan fantastik televizyon dizisidir. George R. R. Martin'in epik
+                           fantezi serisi Buz ve Ateşin Şarkısı'ndan uyarlanmış olan dizi, adını serinin ilk kitabından
+                           almaktadır.</p>
+                        <div class="section-btn"><a href="https://tr.wikipedia.org/wiki/Game_of_Thrones" target="_blank">Daha Fazla...</a></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <h1 class="popular-text">Popüler Diziler</h1>
+                  <div class="content-section_2 content-main-py">
+                     <div class="content-main-section">
+                        <div class="image-section"><img src="images/popular-4.jpg" style="border-radius:5px"></div>
+                        <h2 class="content-isim">Kurltar Vadisi.(2003)</h2>
+                        <p class="content-aciklama">Kurtlar Vadisi, 15 Ocak 2003 tarihinde Show TV'de "Bu bir mafya
+                           dizisidir" sloganıyla yayımlanmaya başlayan aksiyon, dram, istihbarat ve politik türündeki
+                           Türk televizyon dizisidir. Dizi, 4 sezondan ve 97 bölümden oluşmaktadır. 1. sezonunda
+                           çarşamba günleri sonrasındaysa perşembe günleri yayımlanmıştır.</p>
+                        <div class="section-btn"><a href="https://tr.wikipedia.org/wiki/Kurtlar_Vadisi"  target="_blank">Daha Fazla...</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-angle-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-angle-right"></i>
+            </a>
+         </div>
+      </div>
+   </div>
+   </div>
+   <!-- diziler bitiş -->
+   <!-- fragmanlar başlangıç -->
+   <div class="fragmans" id="fragmanlar">
+      <div class="fragmanlar-text">
+         <h1 class="popular-text center-text">Fragmanlar</h1>
+      </div>
+      <div class="fragmanlar-container">
+         <div class="rows">
+            <div class="row">
+               <div class="cols-6">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/KPLWWIOCOOQ"
+                     title="YouTube video player" frameborder="0"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                     allowfullscreen></iframe>
+               </div>
+               <div class="cols-6">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/xYTkbkV7y7k"
+                     title="YouTube video player" frameborder="0"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                     allowfullscreen></iframe>
+               </div>
+            </div>
+            <div class="row">
+               <div class="cols-6">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/YJoB8zwPpSk?controls=0"
+                     title="YouTube video player" frameborder="0"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                     allowfullscreen></iframe>
+               </div>
+               <div class="cols-6">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/aXyzMg25QL4"
+                     title="YouTube video player" frameborder="0"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                     allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- fragmanlar bitiş -->
+   <!-- footer başlangıç -->
+   <div class="footer">
+      <div class="footer-content">
+         <div class="footer-icon">
+            <img src="images/logo.png" width="50px" height="50px" alt="">
+            <span style="font-size: 1.4rem; color: white;">Block</span>
+         </div>
+         <div class="footer-text pt-3">
+            <p class="white">
+               &copy;Copyright 2023, Diziblock tüm hakları Hamza Gözcü'ye aittir.Tüm hakları Saklıdır.
+            </p>
+         </div>
+      </div>
+   </div>
+   <!-- footer bitiş -->
+   <!-- javascript -->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <script src="js/plugin.js"></script>
+   <script src="js/owl.carousel.js"></script>
+   <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+
+</html>

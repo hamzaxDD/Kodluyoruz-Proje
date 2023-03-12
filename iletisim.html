@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Diziblock | Iletisim</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- icon-->
+    <link rel="icon" href="images/logo.png" type="image/gif" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+<body>
+    <nav>
+        <div class="navs">
+           <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+           <span>Block</span>
+        </div>
+        <div>
+           <ul id="nav">
+              <li><a href="index.html#diziler">Diziler</a></li>
+              <li><a href="index.html#fragmanlar">Fragmanlar</a></li>
+              <li><a href="hakkimizda.html">Hakkımızda</a></li>
+              <li><a href="iletisim.html">İletişim</a></li>
+           </ul>
+        </div>
+        <div class="menu" id="menu">
+           <span></span>
+           <span></span>
+           <span></span>
+        </div>
+     </nav>
+     <script>
+        const navigation = document.getElementById("nav");
+        const menu = document.getElementById("menu");
+
+        menu.addEventListener("click", () => {
+           navigation.style.setProperty("--childenNumber", navigation.children.length);
+           navigation.classList.toggle("active");
+           menu.classList.toggle("active");
+        });
+     </script>
+        <div class="iletisim-main">
+            <div class="iletisim-content">
+                <div class="container">
+                    <h1 class="popular-text" style="font-size: 2.5rem!important;"> Bize Ulaşın </h1>
+                    <div class="row">
+                        <div class="col-12 flex-center">
+                            <div class="main-iletisim-items">
+                                <div class="gmail">
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <a href="mailto:hamzaxd1235@gmail.com">hamzaxd1235@gmail.com</a>
+                                </div>
+                                <div class="phone">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <a href="tel:0385189696">0538 517 88 80</a>
+                                </div>
+                                <div class="location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>İnkilap mahallesi Ümraniye/İstanbul, 34764</span> </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 flex-center-row">
+                            <form action="#" class="iletisim-form">
+                                <input type="text" placeholder="İsminizi Giriniz">
+                                <input type="text" placeholder="Soyadınızı Giriniz">
+                                <br>
+                                <input type="text" placeholder="Email adresinizi Giriniz">
+                                <input type="text" placeholder="Başlık Giriniz">
+                                <br>
+                                <textarea name="" id="" cols="43" rows="10" placeholder="Mesajınız"></textarea>
+                                <br>
+                                <input type="submit" value="Gönder" class="iletisim-submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="footer footer-iletisim">
+            <div class="footer-content">
+                <div class="footer-icon">
+                    <img src="images/logo.png" width="50px" height="50px" alt="">
+                    <span style="font-size: 1.4rem; color: white;">Block</span>
+                </div>
+                <div class="footer-text pt-3">
+                    <p class="white">
+                     &copy;Copyright 2023, Diziblock tüm hakları Hamza Gözcü'ye aittir.Tüm hakları Saklıdır.
+                  </p>
+                </div>
+            </div>
+        </div>
+    <script src="https://kit.fontawesome.com/d7e74f3298.js" crossorigin="anonymous"></script>
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript -->
+    <script src="js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+
+</html>

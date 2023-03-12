@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- mobile meta -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Diziblock | Hakkımızda</title>
+   <!-- bootstrap css -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <!-- icon-->
+   <link rel="icon" href="images/logo.png" type="image/gif" />
+   <!-- font awesome -->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+</head>
+
+<body>
+   <!-- navbar,hamburger menu başlangıç -->
+   <nav>
+      <div class="navs">
+         <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+         <span>Block</span>
+      </div>
+      <div>
+         <ul id="nav">
+            <li><a href="index.html#diziler">Diziler</a></li>
+            <li><a href="index.html#fragmanlar">Fragmanlar</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+         </ul>
+      </div>
+      <div class="menu" id="menu">
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+   </nav>
+   <script>
+      const navigation = document.getElementById("nav");
+      const menu = document.getElementById("menu");
+
+      menu.addEventListener("click", () => {
+         navigation.style.setProperty("--childenNumber", navigation.children.length);
+         navigation.classList.toggle("active");
+         menu.classList.toggle("active");
+      });
+   </script>
+   <!-- navbar,hamburger menu Bitiş -->
+   <!-- Hakkımızda başlangıç -->
+   <div class="hakkimizda-main">
+      <div class="hakkimizda-image">
+         <h2 class="black hakkimizda-h1" style="font-size: 3.5rem;">HAKKIMIZDA</h2>
+      </div>
+      <br>
+      <div class="hakkimizda-content">
+         <div class="hakkimizda-section" id="infos">
+            <div class="container">
+               <div class="main-content">
+                  <div class="row">
+                     <div class="col-lg-6 no-py-mg image-hakkimda">
+                        <div class="left-image">
+                        </div>
+                     </div>
+                     <div class="col-lg-6 no-py-mg content-head">
+                        <div class="hakkimizda-heading">
+                           <h1>Hamza Gözcü</h1>
+                           <div class="line-dec"></div>
+                           <p>3 Yaşımdan beri bilgisayar kullanıyorum, bilgisayarı ve kodlamayı seviyorum ve bu alanda
+                              kendimi geliştirmek istiyorum ileride de çok büyük projelerde görev yapmak isterim.bu
+                              siteyi yapmamdaki amaç <span style="font-weight: 700;">Insider-Code-Academy</span> proje
+                              ödevi için yaptım.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- Hakkımızda Bitiş -->
+   <div class="footer hakkimizda-footer">
+      <div class="footer-content">
+         <div class="footer-icon">
+            <img src="images/logo.png" width="50px" height="50px" alt="">
+            <span style="font-size: 1.4rem; color: white;">Block</span>
+         </div>
+         <div class="footer-text pt-3">
+            <p class="white">
+               &copy;Copyright 2023, Diziblock tüm hakları Hamza Gözcü'ye aittir.Tüm hakları Saklıdır.
+            </p>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
